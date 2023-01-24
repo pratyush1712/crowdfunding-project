@@ -25,15 +25,15 @@ export const NavBar = () => {
             </a>
             <a
               className="text-xs leading-relaxed font-bold inline-block mr-4 py-2 whitespace-nowrap uppercase "
-              href="/"
+              href="/top10"
             >
               Our Top 10 finds{" "}
             </a>
             <a
               className="text-xs font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-              href="/"
+              href="/favorites"
             >
-              Team Favourites
+              Team Favorites
             </a>
             <button
               className=" cursor-pointer text-xl leading-none px-3 py-2 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <li className="nav-item">
                   <a
                     className="text-xs leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
-                    href="/start"
+                    href="/campaign"
                   >
                     <span className="ml-2 font-bold">Start a Campaign</span>
                   </a>
