@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Fundstarter",
+  "name": "Fundstarter - find lively, imaginative ideas before it hits the mainstream.",
   "icons": [
     {
       "src": "favicon.ico",
