@@ -14,7 +14,7 @@ const images = Object.entries(
 
 const Items = () => {
   return (
-    <div className="flex flex-row flex-wrap content-center items-center justify-between mb-10 space-x-28">
+    <div className="flex flex-row flex-wrap content-center items-center justify-between mb-10 space-x-14 lg:space-x-28">
       {images.map((image) => (
         <div>
           <img src={image[1]} alt={image[0]} className="h-16 sm:h-19 " />
